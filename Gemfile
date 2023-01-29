@@ -27,7 +27,7 @@ gem 'seed-fu', '~> 2.3'
 # gem 'rmagick'
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'rexml'
 
 # Authentication
 gem 'devise'
@@ -63,6 +63,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'rack-mini-profiler', require: false
   gem 'web-console', '>= 3.3.0'
+  gem 'letter_opener_web'
 end
 
 group :test do
